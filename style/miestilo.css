@@ -1,4 +1,189 @@
-<link rel stylesheet href color.css>
-body { 
-    color: blueviolet;
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #D8D8D8;
+}
+
+
+/* Navigation */
+
+.nav {
+    font-family: 'Tangerine', serif;
+    background-color:#151515;
+    
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+.nav__logo {
+    width: 4em;
+    vertical-align: middle;
+    
+    display: inline-block;
+}
+
+.nav__title {
+    color: #ffffff;
+    font-size: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60vw;
+    /*Esto va a depender del titulo y el logo*/
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.nav__li a {
+    display: block;
+
+    color: blue;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav__li a:hover {
+    color: #ff8000;
+}
+
+.nav__title:hover {
+    color: #81f781;
+}
+
+
+/* Content */
+
+.content {
+    background-color:floralwhite;
+    margin: 1em;
+    min-height: 77.6vh;
+    padding: 1em;
+}
+
+
+/* Barra social */
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    
+    right: 0;
+    /* Establecemos la barra en la izquierda */
+    top: 200px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-google-plus {
+    background: #d95232;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181f;
+}
+
+.social ul li .icon-envelop {
+    background: #ff8000;
+}
+
+.social ul li a:hover {
+    
+    background: rgb(61, 76, 85);
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #151515;
+    /* position: fixed;
+    bottom: 0%; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3.5em;
+    padding: 18px 0;
+}
+
+.footer__p {
+    color: cyan;
+    text-align: center;
+}
+
+.footer__p a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.footer__p a:hover {
+    color: #ff8000;
+}
+
+
+
+
+  
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color:#ae181f
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+li a:hover{
+    background-color:brown;
+    
+
+    }
+        
