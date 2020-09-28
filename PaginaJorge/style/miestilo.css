@@ -57,13 +57,13 @@ body {
 .nav__ul {
     list-style: none;
     display: inline-block;
-    margin-left: 70vw;
+    margin-left: 65vw;
     /*Esto va a depender del titulo y el logo*/
 }
 
 .nav__li {
     display: inline-block;
-    padding: -6 5px;
+    padding: -2 5px;
 }
 .nav__li2 {
     display: inline-block;
@@ -93,7 +93,7 @@ body {
 .content {
     background-color:floralwhite;
     margin: 1em;
-    min-height: 77.6vh;
+    min-height: 0vh;
     padding: 1em;
 }
 
