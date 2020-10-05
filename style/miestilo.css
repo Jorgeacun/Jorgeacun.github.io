@@ -1,5 +1,23 @@
 /* General Styles */
+ul {
+    list-style list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color:yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +40,7 @@ body {
 }
 
 .nav__logo {
-    width: 4em;
+    width: 7em;
     vertical-align: middle;
     
     display: inline-block;
@@ -30,7 +48,8 @@ body {
 
 .nav__title {
     color: #ffffff;
-    font-size: 3em;
+    font-size: 4em;
+    text-align: center;
     display: inline-block;
     vertical-align: middle;
 }
@@ -38,13 +57,18 @@ body {
 .nav__ul {
     list-style: none;
     display: inline-block;
-    margin-left: 60vw;
+    margin-left: 65vw;
     /*Esto va a depender del titulo y el logo*/
 }
 
 .nav__li {
     display: inline-block;
-    padding: 0 5px;
+    padding: -2 5px;
+}
+.nav__li2 {
+    display: inline-block;
+    padding: -6 3px;
+    background-color: #2f3977;
 }
 
 .nav__li a {
@@ -69,7 +93,7 @@ body {
 .content {
     background-color:floralwhite;
     margin: 1em;
-    min-height: 77.6vh;
+    min-height: 0vh;
     padding: 1em;
 }
 
@@ -168,7 +192,15 @@ body {
 
 
 
-  
+   
+ul {
+    list-style list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:enabled;
+ }
+
 li {
     float: left;
 }
@@ -186,4 +218,173 @@ li a:hover{
     
 
     }
+    
+.navegacion{
+	
+	width: auto;
+	height: 60px;
+	background: #234567;
+	display: flex;
+	justify-content: flex-end;
+}
+.navegacion a{
+	color: yellow;
+	text-align: center;
+	padding: 15px;
+	text-decoration:none;
+	display: inline-block;
+}
+.navegacion a:hover{
+	background-color: #1f88b0;
+	color: black;
+}
+.navegacion ul{
+	display: flex;
+	list-style: none;
+}
+.navegacion ul li a{
+	display: block;
+	padding: 20px 20px;
+	color: #fea30f;
+	text-decoration:none;
+}
+.navegacion ul ul{
+	position: absolute;
+	top: 60px;
+	display: block;
+	background-color: #1d577c;
+	transform: traslateX(20%);
+	opacity: 0;
+	transition: all .6s;
+}
+.navegacion ul li a span{
+	transition: all .6s;
+}
+.navegacion ul li a:hover span{
+	transform: traslateY(5px);
+	opacity: 0;
+}
+.navegacion ul li:hover ul{
+	
+	opacity: 1;
+	transform: traslateX(0%);
+}
+.columna{
+	float: left;
+	padding: 10px;
+}
+.columna.izq{
+	text-align: left;
+	width: 20%;
+}
+.columna.contenido{
+	width: 57%;
+}
+.columna.lado{
+	text-align: center;
+	width: 23%;
+}
+.pie{
+	background-color: #46859e;
+	text-align: center;
+}
+.fila:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.galeria{
+	width: 75%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 800%;
+	animation: cambio 32s infinite;
+	animation-direction: alternate;
+	animation-timing-function: case-in;
+}
+.galeria li{
+	margin: 5px;
+}
+.galeria img{
+	width: 150px;
+	height: 100px;
+}
+.modelo{
+	display: none;
+}
+.modelo:target{
+	display: block;
+	position: fixdex;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.imagen{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagen a{
+	color: #fda602;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.imagen a:nth-child(2){
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+.imagen img{
+	width: 800px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fda602;
+	box-sizing: border-box;
+	
+}
+.cerrar{
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25%;
+}
+.secciones article p{
+	padding: 20px;
+}
+.secciones article {
+	text-align: justify;
+}
+.secciones{
+	width: 100%;
+}
+.letras{
+    color: #ff8000;
+   
+}
+}
+.letras2{
+    color: #140b0250;
+   
+}
         
