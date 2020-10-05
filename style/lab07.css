@@ -1,4 +1,4 @@
-/*ESTILO GENERAL*/
+
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,7 +24,7 @@ section {
     margin-bottom: 4%;
 }
 
-/*CLASES*/
+
 
 .salida_datos_1, .salida_datos_2 {
     display: inline-block;
@@ -40,7 +40,7 @@ section {
     background-color: #b74919;
 }
 
-/*INPUT*/
+
 
 input[type=text] {
     width: 50%;
@@ -64,7 +64,7 @@ input[type=text] {
     border: 1px solid black;
 }
 
-/*BUTON*/
+
 button {
     border: none;
     color: white;
@@ -84,7 +84,7 @@ button {
     background-color: #b74919;
 }
 
-/*LABELS*/
+
 
 label {
     margin: 0;
