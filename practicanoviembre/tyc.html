@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/acuña.css">
+
+    <a href="acuña.html" class="letras" > Regresar|</a>
+</head>
+<body>
+
+    <h1 id="HoraActual"> </h1>
+    function showTime(){
+        myDate = new Date();
+        hours = myDate.getHours();
+        minutes = myDate.getMinutes();
+        seconds = myDate.getSeconds();
+        if (hours < 10) hours = 0 + hours;
+        if (minutes < 10) minutes = "0" + minutes;
+        if (seconds < 10) seconds = "0" + seconds;
+        $("#HoraActual").text(hours+ ":" +minutes+ ":" +seconds);
+        setTimeout("showTime()", 1000);
+        
+        }
+
+    
+    <div>
+        <ul class ="galeria">
+            
+            <li><a href ="#img1"><img src ="images/12.jpg"  alt =""></a></li>
+            <li><a href ="#img2"><img src ="images/2.jpg"  alt =""></a></li>
+            <li><a href ="#img3"><img src ="images/3.jpg"  alt =""></a></li>
+            <li><a href ="#img1"><img src ="images/4.jpg"  alt =""></a></li>
+            <li><a href ="#img4"><img src ="images/6.jpg"  alt =""></a></li>
+            <li><a href ="#img5"><img src ="images/9.jpg"  alt =""></a></li>
+        </ul>
+    </div>
+
+    <div class = "modelo" id="img1">
+        <div class ="imagen">
+        <a href="#img4">&#60;</a>
+        <a href="#img2"><img src ="images/12.jpg"  alt =""></a>
+        <a href="#img2">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class = "modelo" id="img2">
+        <div class ="imagen">
+        <a href="#img1">&#60;</a>
+        <a href="#img3"><img src ="images/2.jpg"  alt =""></a>
+        <a href="#img3">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class = "modelo" id="img3">
+        <div class ="imagen">
+        <a href="#img2">&#60;</a>
+        <a href="#img4"><img src ="images/3.jpg"  alt =""></a>
+        <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class = "modelo" id="img4">
+        <div class ="imagen">
+        <a href="#img3">&#60;</a>
+        <a href="#img5"><img src ="images/4.jpg"  alt =""></a>
+        <a href="#img5">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class = "modelo" id="img5">
+        <div class ="imagen">
+        <a href="#img4">&#60;</a>
+        <a href="#img6"><img src ="mages/6.jpg"  alt =""></a>
+        <a href="#img6">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    
+        
+
+
+
+    
+</body>
+</html>
