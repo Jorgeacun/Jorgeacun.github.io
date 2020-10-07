@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#letra {
+    background-color: Azure;
+}
+
+#blanco {
+    background-color: FloralWhite;
+}
+
+#alineacion {
+    text-align: justify;
+}
+
+.fondo {
+    background: url("");
+}
+
+#cover {
+    background: #222 ;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+#cover-texto .form-inline {
+    width: 100%;
+}
+
+.contenido-seccion {
+    padding: 5rem 0;
+}
+
+#acerca-de {
+    background: ;
+    background-size: cover;
+}
+
+#acerca-ee {
+    background: ;
+    background-size: cover;
+}
+
+#acerca-fe {
+    background: url;
+    background-size: cover;
+}
+
+.texto-acerca-de {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
